@@ -32,7 +32,7 @@ html, body {
 
 .jumbotron {
 	background-color: transparent;
-  background: url(../Images/adoptly.jpg) no-repeat center center;
+  background: url(../../Images/adoptly.jpg) no-repeat center center;
   background-size: cover;
   height: 350px;
 }
