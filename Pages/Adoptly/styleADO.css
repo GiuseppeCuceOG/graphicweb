@@ -1,0 +1,96 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+	background-color: #3A66BB;
+  height: 60px;
+}
+
+.header .main {
+	font-size: 28px;
+  background-color: #F60385;
+}
+
+.header li {
+	display: inline-block;
+	color: #EEE;
+  padding: 10px 20px 10px 20px;
+}
+
+.header ul {
+	text-align: center;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.jumbotron {
+	background-color: transparent;
+  background: url(../Images/adoptly.jpg) no-repeat center center;
+  background-size: cover;
+  height: 350px;
+}
+
+.jumbotron h1 {
+	color: #E52364;
+  text-align: center;
+  font-weight: bold;
+}
+
+.col-md-4 {
+	text-align: center;
+  font-size: 16px;
+}
+
+.col-md-4 p {
+	font-weight: lighter;
+  font-size: 13px;
+}
+
+.btn {
+	border: 1px solid #0080AA;
+  padding: 10px 80px 10px 80px;
+  text-transform: uppercase;
+  border-radius: 0px;
+  margin-top: 60px;
+}
+
+.footer {
+	background-color: #F60385;
+  height: 80px;
+  margin-top: 60px;
+}
+
+.footer .row {
+	padding: 30px 0px 20px 0px;
+}
+
+.col-md-10 {
+	text-align: right;
+}
+
+.col-md-10 a {
+  text-decoration: none;
+  color: #FFF;
+  margin: 0px 20px 0px 20px;
+  }
+
+.col-md-10 a:hover {
+	text-decoration: none;
+  color: #0080AA;
+  background-color: #FFFAFA;
+  padding: 10px 5px 10px 5px;
+  border-radius: 8px;
+}
+
+@media (max-width: 500px) {
+  ul li {
+    width: 100%;
+  }
+}

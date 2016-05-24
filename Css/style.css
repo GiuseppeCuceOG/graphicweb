@@ -1,0 +1,139 @@
+body {
+	background-color: #237A6E;
+}
+
+.container {
+	max-width: 1000px;
+	margin: auto;
+}
+
+.header {
+	background-color: #D64A1E;
+}
+
+.header h1 {
+	font-family: "GodOfWar";
+	font-size: 1.8em;
+	color: #D0E000;
+}
+
+.col-md-6 {
+	display: inline-block;
+}
+
+li {
+	display: inline-block;
+	padding: 20px 20px 10px 15px;
+}
+
+.header a {
+	background-color: #927A6E;
+	color: #000;
+	padding: 10px 25px 10px 25px;
+	text-decoration: none;
+	border-radius: 8px;
+	font-family: STAMPWRITER-KIT;
+	box-shadow: 
+}
+
+.header a:hover {
+	color: #D0E000;
+	box-shadow: 0px 0px 10px 5px #D0E000;
+	text-decoration: none;
+}
+
+.header .active {
+	background-color: #237A6E;
+	color: #D0E000;
+	box-shadow: 0px 0px 10px 5px #D0E000;
+}
+
+.main {
+	background: url(../Images/turkuland.jpg) center center;
+	background-size: cover;
+	height: 450px;
+}
+
+.main h1 {
+	color: #000;
+	text-align: center;
+	font-family: "AmazDooMLeft";
+	font-size: 3.7em;
+	margin-top: 110px;
+	text-shadow: 2px 2px 1px #EEE;
+}
+
+.col-md-4 {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.centrale img {
+	width: 100%;
+	border-radius: 20px;
+}
+
+.centrale h1 {
+	padding: 20px 0px 20px 0px;
+	font-family: "GodOfWar";
+}
+
+div #comingsoon {
+	background-color: rgba(20,20,20,0.7);
+	color: #AAA;
+	width: 302px;
+	height: 182px;
+	margin-left: 16px;
+	border-radius: 20px;
+}
+
+#comingsoon h2 {
+	text-align: center;
+	margin-top: 70px;
+}
+
+.centrale h1 {
+	color: #DDD;
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+}
+
+.coro h1 {
+	font-family: "GodOfWar";
+	text-align: center;
+	color: #EEE;
+	padding: 15px 0px 15px 0px;
+}
+
+.coro p {
+	color: #EEE;
+	text-align: center;
+	font-size: 1.2em;
+	font-family: "GodOfWar";
+}
+
+.coro img {
+	width: 100%;
+	border-radius: 20px;
+	padding: 10px 0px 10px 0px;
+}
+
+.footer {
+	background-color: #D64A1E;
+	height: 80px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.footer p {
+	color:#EEE;
+	padding-top: 30px;
+	font-family: "Tiza";
+}
+
+.footer h6 {
+	text-align: right;
+	margin-top: -25px;
+	color: #EEE;
+}
