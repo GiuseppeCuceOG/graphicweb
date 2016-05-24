@@ -137,3 +137,8 @@ div #comingsoon {
 	margin-top: -25px;
 	color: #EEE;
 }
+
+@font-face {
+	font-family: GODOFWAR ; 
+	src: url(GODOFWAR.TTF);
+}
