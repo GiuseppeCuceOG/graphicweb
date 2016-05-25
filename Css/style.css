@@ -149,11 +149,6 @@ div #comingsoon {
 }
 
 @font-face {
-	font-family: STAMPWRITER-KIT;
-	src: url (STAMPWRITER-KIT.ttf);
-}
-
-@font-face {
 	font-family: "Tiza";
 	src: url(tiza.ttf);
 }
