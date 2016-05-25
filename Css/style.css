@@ -142,3 +142,18 @@ div #comingsoon {
 	font-family: "GodOfWar"; 
 	src: url(../GODOFWAR.TTF);
 }
+
+@font-face {
+	font-family: "AmazDooMLeft";
+	src: url(../AmazDooMLeft.ttf);
+}
+
+@font-face {
+	font-family: "STAMPWRITER-KIT";
+	src: url (STAMPWRITER-KIT.ttf);
+}
+
+@font-face {
+	font-family: "Tiza";
+	src: url(tiza.ttf);
+}
