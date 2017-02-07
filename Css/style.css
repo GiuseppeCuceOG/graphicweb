@@ -18,6 +18,7 @@ body {
 	color: #EEE;
 	text-shadow: 5px 3px 5px #000;
 }
+
 .centrale h1 {
 	padding: 20px 0px 20px 0px;
 	font-family: "GodOfWar";
@@ -62,7 +63,7 @@ body {
 }
 
 .elenco {
-	background-color: #4F738E;
+	background-color: #4F735E;
 	height: 300px;
 }
 
@@ -70,6 +71,22 @@ body {
 	width: 100px;
 	padding: 0px 5px 0px 5px;
 	margin: 40px 5px 0px 10px;
+}
+
+.fb {
+	background-color: #234767;
+	color: #EEE;
+	font-size: 20px;
+	height: 170px;
+}
+
+.fb img {
+	width: 40px;
+	padding: 10px 0px 10px 0px;
+}
+
+.fb ul {
+	list-style-type: none;
 }
 
 .footer {
