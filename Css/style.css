@@ -8,17 +8,16 @@ body {
 	margin: auto;
 }
 
-.header {
+.header , .skills {
 	background-color: #E62A1E;
 }
 
-.header h1 {
+.header h1 , .skills h1 {
 	font-family: "GodOfWar";
 	font-size: 3em;
 	color: #EEE;
 	text-shadow: 5px 3px 5px #000;
 }
-
 .centrale h1 {
 	padding: 20px 0px 20px 0px;
 	font-family: "GodOfWar";
@@ -36,7 +35,7 @@ body {
 	width: 250px;
 }
 
-img:hover {
+.col-md-6 img:hover , .col-md-3 img:hover {
 	opacity: 0.85;
 }
 
@@ -58,11 +57,25 @@ img:hover {
 	font-size: 35px;
 }
 
+.skills {
+	margin-top: 40px;
+}
+
+.elenco {
+	background-color: #4F738E;
+	height: 300px;
+}
+
+.elenco img {
+	width: 100px;
+	padding: 0px 5px 0px 5px;
+	margin: 40px 5px 0px 10px;
+}
+
 .footer {
 	background-color: #E62A1E;
 	height: 80px;
 	width: 100%;
-	margin-top: 20px;
 }
 
 .footer p {
