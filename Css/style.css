@@ -5,7 +5,6 @@ body {
 
 .container {
 	max-width: 1000px;
-	
 }
 
 .header , .skills {
@@ -114,45 +113,54 @@ body {
 
 
 @media (max-width: 361px) {
+
+	body {
+		width: 360px;
+	}
+
+	.header h1 {
+		text-align: center;
+	}
+
 	.header h1, .centrale h1 {
 		font-size: 2em;
 	}
 
-	.container {
-		max-width: 360px;
+	.works {
+		max-width: 300px;
+		margin-right: 50px;
 	}
 
 	.col-md-6 , .col-md-3 {
-		height: 100px;
+		height: 150px;
 	}
 
 	#alpha img {
-		width: 100px;
+		width: 150px;
 	}
 
 	#alpha {
-		width: 100px;
-		height: 100px;
+		width: 150px;
+		height: 150px;
 	}
 
 	#fg {
-		width: 50px;
+		width: 75px;
 	}
 
 	#blue , #green {
-		width: 50px;
-		height: 50px;
+		width: 75px;
+		height: 75px;
 	}
 
 	.comingsoon {
-		font-size: 1em;
-		height: 50px;
+		display: none;
 	}
 
 	.elenco img {
 		width: 50px;
 		padding: 0px 5px 0px 5px;
-		margin: 30px 5px 0px 10px;
+		margin: 30px 8px 0px 12px;
 	}
 
 	.boo img {
